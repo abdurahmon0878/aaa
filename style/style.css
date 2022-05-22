@@ -1,0 +1,220 @@
+:root{
+    --white:#fff;
+    --black:#0000;
+    --mont:"Montserrat";
+    --rob:"Roboto";
+    --pro:"ProstoOne";
+    --monsub:"MontserratSubrayada";
+    --prozip:"Prosto_One.zip";
+}
+.new_content{
+    width: 100%;
+    background: #282828;
+    display: flex;
+}
+.header_naw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 150px;
+    margin: 0 128px;
+}
+.header_info{
+    display: flex;
+}
+.header_list{
+    display: flex;
+    list-style: none;
+}
+.header_link{
+    font-family: "Roboto";
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.header_item{
+    padding: 0px 18px;
+}
+.header__img{
+    width: 100%;
+}
+.header__content{
+    height: 700px;
+    background: url(../img/foto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__title{
+    color: #fff;
+    font-family: var(--pro);
+    width: 663px;
+    font-size: 100px;
+    line-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__text, .header__icon{
+    font-family: var(--monsub);
+    font-weight: 400;
+    font-size: 20px;
+    color: #171718;
+    background: var(--white);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.service__icon{
+    color: #171718;
+    width: 16px;
+    height: 15px;
+}
+.intro__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+.header__icon>i{
+    margin: 0px 10px;
+}
+.intro-icon{
+    margin: 0px 25px;
+    color: var(--white);
+}
+.center_content{
+    background: #151515;    
+}
+.center__text{
+    color: var(--white);
+    font-family: var(--mont);
+    font-weight: 400;
+    font-size: 22px;
+    width: 538px;
+    height: 135px;
+    margin: 30px;
+}
+.center__top{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.center__top-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.center-text{
+    color: var(--white);
+    font-family: var(--mont);
+    font-weight: 400;
+    font-size: 22px;
+    width: 540px; 
+    height: 107px;
+    margin: 0px 87px;
+}
+.linya{
+    background: var(--white);
+    height: 1px;
+    width: 61px;
+    margin: 0px 13px;
+}
+.center__top-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.center_text, .center_text-2{
+    font-family: var(--mont);
+    font-weight: 700;
+    font-style: 20px;
+    color: var(--white);
+    width: 333px;
+    height: 144px;
+    display: flex;
+    align-items: center;
+}
+.container_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center__end{
+    background: var(--white);
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 55px 20px;
+}
+.title{
+    font-family: var(--mont);
+    font-weight: 700;
+    font-style: 20px;
+    display: flex;
+    justify-content: center;
+}
+.end__img{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-family: var(--monsub);
+    font-weight: 400;
+    font-style: 14px;
+    display: flex;
+    justify-content: center;
+}
+.end__text{
+    font-family: var(--mont);
+    color: var(--white);
+    text-decoration: none;
+    background: #000000;
+    width: 161px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background: #282828;
+    width: 100%;
+    height: 215px;
+    display: flex;
+    align-items: center ;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer__item{
+    font-family: var(--mont);
+    font-weight: 700;
+    font-style: 20px;
+    color: var(--white);
+    display: flex;
+    margin: 0px 30px;
+}
+.footer__list{
+    display: flex;
+}
+.footer__img{
+    width: 100px;
+    height: 53px;
+}

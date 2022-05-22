@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "MontserratSubrayada";
+    src: url(../fonts/MontserratSubrayada-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: 400
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-weight: 700
+}
+@font-face {
+    font-family: "ProstoOne";
+    src: url(../fonts/ProstoOne-Regular.ttf);
+    font-weight: 400;
+}
